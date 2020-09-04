@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black ;
 }
 
 .App-logo {
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-container {
+  padding: 10px;
+}
+
+.header {
+  margin: 20px;
+  background-color: purple;
+  color: white;
+  font-weight: 400;
+  text-shadow: 0 0 8px rgb(202, 136, 255);
+}
+
+.title {
+  font-weight: 700;
+}
+
+.title-divider {
+  background-color: white;
+}
+
+.news-block {
+  background-color: white;
+}
+
+.news-title {
+  color: white;
+  text-shadow: 0 0 8px black;
 }
