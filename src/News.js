@@ -9,16 +9,6 @@ function News(props) {
             .then(res => res.json())
             .then(data => console.log(data))
             .catch(err => console.log('err: ', err))
-        // fetch("https://newscatcher.p.rapidapi.com/v1/search?media=True&sort_by=relevancy&sources=sources%253Dfox.com%252Ccnn.com&lang=en&page=1&q=Elon%20Musk", {
-        //     "method": "GET",
-        //     "headers": {
-        //         "x-rapidapi-host": "newscatcher.p.rapidapi.com",
-        //         "x-rapidapi-key": "454a90f8afmshe03e7bd4efdce75p1abc73jsn2df2e9ddc1e5"
-        //     }
-        // })
-        // .then(res => res.json())
-        // .then(data => console.log(data))
-        // .catch(err => console.log(err))
     });
 
     return (
