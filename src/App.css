@@ -43,7 +43,8 @@
 }
 
 .header {
-  margin: 20px;
+  width: 75%;
+  margin: 50px;
   background-color: purple;
   color: white;
   font-weight: 400;
@@ -59,10 +60,27 @@
 }
 
 .news-block {
-  background-color: white;
+  /* background-color: white; */
+  margin-bottom: 30px;
 }
 
 .news-title {
+  /* color: white; */
+  /* text-shadow: 0 0 8px white; */
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.articles {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.links {
   color: white;
-  text-shadow: 0 0 8px black;
+}
+
+.loading {
+  color: white;
+  margin-top: 30px;
 }
