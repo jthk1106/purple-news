@@ -59,6 +59,18 @@
   background-color: white;
 }
 
+.date {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  width: 30%;
+  background-color: rgb(87, 0, 87);
+  border: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
+
 .news-block {
   /* background-color: white; */
   margin-bottom: 30px;
