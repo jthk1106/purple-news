@@ -27,6 +27,7 @@ function News(props) {
     useEffect(() => {
         console.log(`gotcha ${props.source}!`)
         fetch(`https://purple-news-scraper.herokuapp.com/${props.source}`)
+        // fetch(`http://localhost:1337/${props.source}`)
             .then(res => res.json())
             .then(data => setNews(data))
             .catch(err => console.log('err: ', err))
