@@ -27,10 +27,10 @@ function News(props) {
 
     useEffect(() => {
         console.log(`gotcha ${props.source}!`)
-        axios.get(`https://purple-news-proxy.herokuapp.com/${props.source}`)
-        // fetch(`https://purple-news-proxy.herokuapp.com/${props.source}`)
+        // axios.get(`https://purple-news-proxy.herokuapp.com/${props.source}`)
+        fetch(`https://purple-news-proxy.herokuapp.com/${props.source}`)
         // fetch(`http://localhost:1111/${props.source}`)
-            // .then(res => res.json())
+            .then(res => res.json())
             .then(data => setNews(data))
             .catch(err => console.log('err: ', err))
     }, [props.source]);
